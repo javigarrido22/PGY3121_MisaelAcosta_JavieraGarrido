@@ -1,2 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+#conteItemsCarrusel {
+    border: 5px solid black;
+    height: 150px;
+    overflow: hidden;
+    
+}
 
+.ItemCarrusel {
+    border: 1px solid black;
+    height: 150px;
+    position: relative;
+}
+
+.tarjetaCarrusel {
+    height: 100%;
+    }
+
+.FlechasCarrusel {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#tarjetaCarrusel-1 {
+    background-color: blueviolet;
+}
+
+#tarjetaCarrusel-2 {
+    background-color: royalblue;
+}
+
+#tarjetaCarrusel-3 {
+    background-color: red;
+}
