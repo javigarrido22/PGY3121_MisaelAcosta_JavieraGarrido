@@ -1,24 +1,22 @@
 *{
-    padding: 0px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 #conteItemsCarrusel {
-    border: 5px solid black;
-    height: 150px;
+    height: 200px;
     overflow: hidden;
     
 }
 
 .ItemCarrusel {
-    border: 1px solid black;
-    height: 150px;
+    height: 200px;
     position: relative;
 }
 
 .tarjetaCarrusel {
-    height: 100%;
+    height: 200%;
     }
 
 .FlechasCarrusel {
@@ -34,14 +32,11 @@
 
 }
 
-#tarjetaCarrusel-1 {
-    background-color: blueviolet;
+a {
+    color: white;
 }
 
-#tarjetaCarrusel-2 {
-    background-color: royalblue;
+i {
+    color: white;
 }
 
-#tarjetaCarrusel-3 {
-    background-color: red;
-}
