@@ -9,30 +9,45 @@
   <body>
     <h1>Reality First</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Inicio</a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+   
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+          <div class="container">
+            <a class="navbar-brand" href="#">Reality First</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="mx-auto"></div>
+              <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="login.html">Ingresar</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-              </li>  
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="Fiestas/Graduaciones/Matrimonios" placeholder="Fiestas/Graduaciones/Matrimonios" aria-label="Fiestas/Graduaciones/Matrimonios">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+                  <a class="nav-link text-white" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">ENTRADAS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="contacto.html">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="loginyregistro/login.html">INICIO SESION</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+  </header>
 
+  <section>
       <H1>Formulario de contacto</H1>
       
       <form class="row g-3">
@@ -63,7 +78,7 @@
           <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
       </form>
-      
+    </section>
 
   </body>
 </html>
