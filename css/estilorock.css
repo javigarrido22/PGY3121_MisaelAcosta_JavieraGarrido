@@ -66,3 +66,7 @@ body{
     background-color: black;
     border-color: #000000;
 }
+
+#InfoEvento {
+    background-color: aquamarine;
+}
