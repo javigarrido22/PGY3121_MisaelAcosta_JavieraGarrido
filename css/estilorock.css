@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ18w-QiC9I_HryFv4xKGK5AiPEbWe-C9mWQ&usqp=CAU);
+}
+
+#Rock{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#Rock img{
+    
+    transition: all 360px;
+    position: relative;
+}
+
+#Rock img:hover{
+    transform: scale(1.15);
+}
+
+#Rock-2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#Rock-2 img{
+    
+    transition: all 360px;
+    position: relative;
+}
+
+#Rock-2 img:hover{
+    transform: scale(1.15);
+}
+
+#Rock-3{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#Rock-3 img{
+    
+    transition: all 360px;
+    position: relative;
+}
+
+#Rock-3 img:hover{
+    transform: scale(1.15);
+}
+
+#NavBar{
+    background-color: white;
+}
+
+#Busqueda {
+    background-color: black;
+    border-color: #000000;
+}

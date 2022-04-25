@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/originals/7a/2b/2c/7a2b2cc69ced444f3d827d405ac4dcf7.jpg) ;
+}
+
+#NavBar {
+    background-color: white;
+}
+
+#Busqueda {
+    background-color: black;
+    border-color: #000000;
+}
