@@ -1,5 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(https://t2.uc.ltmcdn.com/es/posts/9/6/9/la_mejor_musica_para_fiestas_clasicos_en_espanol_50969_0_600.jpg);
+    background: url('../multimedia/peakpx.jpg');
+}
+
+#Busqueda {
+    background-color: black;
+    border-color: #000000;
 }
