@@ -7,11 +7,47 @@
 }
 
 #Rock img{
-    width: 100%;
+    
     transition: all 360px;
     position: relative;
 }
 
 #Rock img:hover{
+    transform: scale(1.15);
+}
+
+#Rock-2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#Rock-2 img{
+    
+    transition: all 360px;
+    position: relative;
+}
+
+#Rock-2 img:hover{
+    transform: scale(1.15);
+}
+
+#Rock-3{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#Rock-3 img{
+    
+    transition: all 360px;
+    position: relative;
+}
+
+#Rock-3 img:hover{
     transform: scale(1.15);
 }
