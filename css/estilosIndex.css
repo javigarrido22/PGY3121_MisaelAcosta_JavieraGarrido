@@ -162,3 +162,8 @@ footer {
         margin-bottom: 40px;
     }
 }
+
+#Busqueda {
+    background-color: black;
+    border-color: #000000;
+}

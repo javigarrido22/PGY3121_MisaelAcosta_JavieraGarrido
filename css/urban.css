@@ -7,3 +7,8 @@ body {
 #NavBar {
     background-color: white;
 }
+
+#Busqueda {
+    background-color: black;
+    border-color: #000000;
+}
