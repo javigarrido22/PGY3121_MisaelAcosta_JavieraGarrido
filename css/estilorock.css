@@ -1,0 +1,17 @@
+#Rock{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#Rock img{
+    width: 100%;
+    transition: all 360px;
+    position: relative;
+}
+
+#Rock img:hover{
+    transform: scale(1.15);
+}
